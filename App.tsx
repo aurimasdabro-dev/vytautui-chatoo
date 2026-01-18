@@ -1,7 +1,7 @@
 
 import React, { useState, useCallback } from 'react';
-import MessageList from './MessageList.tsx';
-import MessageInput from './MessageInput.tsx';
+import MessageList from './MessageList';
+import MessageInput from './MessageInput';
 import { Message } from './types';
 import { INITIAL_MESSAGE } from './constants';
 import { geminiService } from './services/geminiService';
